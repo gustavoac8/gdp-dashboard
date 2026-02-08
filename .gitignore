@@ -1,5 +1,18 @@
 .streamlit/secrets.toml
 
+# DuckDB files
+*.duckdb
+*.duckdb.wal
+storage/duckdb/*
+!storage/duckdb/.gitkeep
+
+# Uploaded files
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Environment variables
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
